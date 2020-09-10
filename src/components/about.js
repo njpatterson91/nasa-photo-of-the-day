@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 
 const StyledAbout = styled.div`
-  max-width: 40%;
+  max-width: ${(pr) => pr.theme.divWidth};
   p {
     max-width: 50vw;
     padding: 5rem;

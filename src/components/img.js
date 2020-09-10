@@ -2,8 +2,7 @@ import React from "react";
 import styled from "styled-components";
 
 const StyledImg = styled.div`
-  border-radius: 10px;
-  max-width: 40%;
+  max-width: ${(pr) => pr.theme.divWidth};
   img {
     max-width: 100%;
     padding: 5vw;
