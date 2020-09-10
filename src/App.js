@@ -23,7 +23,7 @@ function App() {
         title={photo.title}
         explanation={photo.explanation}
       />
-      <Copyright />
+      <Copyright copyright={photo.copyright} />
     </div>
   );
 }

@@ -6,7 +6,6 @@ const StyledImg = styled.div`
   max-width: 40%;
   img {
     max-width: 100%;
-    border-radius: 10px;
     padding: 5vw;
   }
 `;
