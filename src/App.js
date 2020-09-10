@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import axios from "axios";
 import "./App.css";
 import Photo from "./components/photo";
+import Copyright from "./components/copyright";
 
 function App() {
   const [photo, setPhoto] = useState([]);
@@ -17,12 +18,12 @@ function App() {
   }, []);
   return (
     <div className="App">
-      <h1>Nasa Photo of the Day</h1>
       <Photo
         photo={photo.url}
         title={photo.title}
         explanation={photo.explanation}
       />
+      <Copyright />
     </div>
   );
 }
